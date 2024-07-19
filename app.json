@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "todo-app",
+    "name": "Todo App",
     "slug": "todo-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yajvendra.todoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "759b3cb1-e2f8-4ae6-ad99-f79e835aa50c"
+      }
     }
   }
 }
